@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>themeinthebox.com</title>
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body id="home" class="homepage">
+
+
+    <header id="top-header" class="navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- /responsive nav button -->
+                    
+                    <!-- logo -->
+                    <div class="navbar-brand">
+                        <a class="smooth-scroll" data-section="#home" href="#home" >
+                            <h3><span style="color:white;">Github Analysis</span></h3>
+                        </a>
+                    </div>
+                    <!-- /logo -->
+                </div>
+
+                <!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <div class="main-menu">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li class="scroll"><a href="#home" data-section="#home">Home</a></li>
+                            <li class="scroll"><a href="#about" data-section="#about">About</a></li>
+                            <li class="scroll"><a href="#testimonial" data-section="#testimonial">Testimonial</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- /main nav -->
+                
+            </div>
+        </header>
+
+    <section id="main-slider">
+            <div class="item" style="background-image: url(images/slider/bg2.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="carousel-content text-center">
+                                    <h2><span style="color:white;">Welcome to Github Analytics Page.</span></h2>
+                                    <form name ="repo" method="post" action="/dashboard">
+                                        <div class="col-md-9">
+                                            <center><input class="form-control input-lg" placeholder="Enter the org name, you are interested in.!!" name ="orgName" type="text" required></center>
+                                        </div>
+                                    <div class="col-md-1"><input type="Submit" class="btn btn btn-primary"></div><div class="col-md-4"></div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+    </section><!--/#main-slider-->
+
+    <section id="about">
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">WELCOME TO OUR PAGE</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">A Little More About Us</h3>
+                    <p>You can now see detailed analytics data for repositories that you're an owner of or that you can push to. Just load up the graphs page for your particular repository and you'll see a new link to the traffic page.</p>
+
+                    <p>When you land on the traffic page you'll see a lot of useful information about your repositories including where people are coming from and what they're viewing.</p>
+
+                </div><br>
+                <div class="col-sm-6 wow fadeInLeft">
+                    <img class="img-responsive" src="images/feature-2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section><!--/#about-->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+
+                <div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <p><img class="img-circle img-thumbnail" src="images/testimonial/ami.jpg" alt=""></p>
+                                <h4>Amitesh Jaiswal</h4>
+                                <p>Full Stack Developer - MEAN Stack</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!--/#testimonial-->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-center">
+                        &copy; GithubAnalysis2016
+                    </p>
+                    
+                    <ul class="social-icons text-center">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
