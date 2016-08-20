@@ -1,24 +1,9 @@
-<<<<<<< HEAD
-
-
-# Github_Api
-
-
 
 ## Usage
+1. Built a simple interactive UI to allow an user to find all the public repositories of any organization.
+2. User can search for any oganization's github and result will be all the public repositories of that organization.
+3. Order of repositories will be based on particular metrics, here I m using number of forks.
+4. Also display the list of contributers for each repo and their profile.
 
 
 
-## Developing
-
-
-
-### Tools
-
-Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
- ([Eclipse Marketplace](http://marketplace.eclipse.org/content/nodeclipse), [site](http://www.nodeclipse.org))   
-
-Nodeclipse is free open-source project that grows with your contributions.
-=======
-# Github_Repo_Analysis
->>>>>>> afdccc45b71c5f66a901594ce258877dfffb366e
